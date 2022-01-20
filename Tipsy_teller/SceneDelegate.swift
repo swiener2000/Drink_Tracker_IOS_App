@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Tipsy_teller
+//  ParseTest
 //
-//  Created by Stephanie Wiener on 1/20/22.
+//  Created by Stephanie Wiener on 12/12/21.
 //
 
 import UIKit
@@ -18,7 +18,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
     }
-
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

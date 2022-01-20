@@ -1,12 +1,12 @@
 //
 //  AppDelegate.swift
-//  Tipsy_teller
+//  ParseTest
 //
-//  Created by Stephanie Wiener on 1/20/22.
+//  Created by Stephanie Wiener on 12/12/21.
 //
 
 import UIKit
-
+import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -14,9 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "TsM0SeTUdeBurQVlXn0Zy0v0cDh7hhfCx5C9SSog"
+            $0.clientKey = "N1dyjT4WqSDNPnnahUq6a7GQmGoqEL3XhMX6Qxdx"
+            $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: configuration)
+        print("Parse configured...")
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {

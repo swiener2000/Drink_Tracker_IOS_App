@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC1B121E2799ED260057D162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B121D2799ED260057D162 /* AppDelegate.swift */; };
-		EC1B12202799ED260057D162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B121F2799ED260057D162 /* SceneDelegate.swift */; };
-		EC1B12222799ED260057D162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B12212799ED260057D162 /* ViewController.swift */; };
-		EC1B12252799ED260057D162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B12232799ED260057D162 /* Main.storyboard */; };
-		EC1B12272799ED290057D162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1B12262799ED290057D162 /* Assets.xcassets */; };
+		0241787B50B430F765FCEF2C /* Pods_Tipsy_tellerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71355248267D28619C6FC720 /* Pods_Tipsy_tellerTests.framework */; };
+		B43D00B39DD844AD264AA641 /* Pods_Tipsy_teller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF020ACC02312CF1D35F50A0 /* Pods_Tipsy_teller.framework */; };
 		EC1B122A2799ED290057D162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B12282799ED290057D162 /* LaunchScreen.storyboard */; };
 		EC1B12352799ED2A0057D162 /* Tipsy_tellerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B12342799ED2A0057D162 /* Tipsy_tellerTests.swift */; };
 		EC1B123F2799ED2A0057D162 /* Tipsy_tellerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B123E2799ED2A0057D162 /* Tipsy_tellerUITests.swift */; };
 		EC1B12412799ED2A0057D162 /* Tipsy_tellerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B12402799ED2A0057D162 /* Tipsy_tellerUITestsLaunchTests.swift */; };
+		EC1B12542799EE4D0057D162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1B124F2799EE4D0057D162 /* Assets.xcassets */; };
+		EC1B125D2799EF060057D162 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B12592799EF060057D162 /* DrinkViewController.swift */; };
+		EC1B125E2799EF060057D162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B125A2799EF060057D162 /* ViewController.swift */; };
+		EC1B125F2799EF060057D162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B125B2799EF060057D162 /* SceneDelegate.swift */; };
+		EC1B12602799EF060057D162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1B125C2799EF060057D162 /* AppDelegate.swift */; };
+		EC1B12622799F10D0057D162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1B12612799F10D0057D162 /* Main.storyboard */; };
+		F77A99462282B69C39F7F77B /* Pods_Tipsy_teller_Tipsy_tellerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2E028DA7AD014505B396B8 /* Pods_Tipsy_teller_Tipsy_tellerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DFC21942F2EAC8965A97D7 /* Pods-Tipsy_tellerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_tellerTests.release.xcconfig"; path = "Target Support Files/Pods-Tipsy_tellerTests/Pods-Tipsy_tellerTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F6359CC7509AFF6B1E129CA /* Pods-Tipsy_teller-Tipsy_tellerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_teller-Tipsy_tellerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy_teller-Tipsy_tellerUITests/Pods-Tipsy_teller-Tipsy_tellerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20206E0E0A18B3553741A122 /* Pods-Tipsy_teller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_teller.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy_teller/Pods-Tipsy_teller.debug.xcconfig"; sourceTree = "<group>"; };
+		2F2E028DA7AD014505B396B8 /* Pods_Tipsy_teller_Tipsy_tellerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipsy_teller_Tipsy_tellerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47354768C427A44655D86353 /* Pods-Tipsy_teller-Tipsy_tellerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_teller-Tipsy_tellerUITests.release.xcconfig"; path = "Target Support Files/Pods-Tipsy_teller-Tipsy_tellerUITests/Pods-Tipsy_teller-Tipsy_tellerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		63980AF201E2C548CBA7D9B9 /* Pods-Tipsy_teller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_teller.release.xcconfig"; path = "Target Support Files/Pods-Tipsy_teller/Pods-Tipsy_teller.release.xcconfig"; sourceTree = "<group>"; };
+		70696E6EDAE8C626861ACFB5 /* Pods-Tipsy_tellerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipsy_tellerTests.debug.xcconfig"; path = "Target Support Files/Pods-Tipsy_tellerTests/Pods-Tipsy_tellerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		71355248267D28619C6FC720 /* Pods_Tipsy_tellerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipsy_tellerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF020ACC02312CF1D35F50A0 /* Pods_Tipsy_teller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tipsy_teller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B121A2799ED260057D162 /* Tipsy_teller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy_teller.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC1B121D2799ED260057D162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC1B121F2799ED260057D162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EC1B12212799ED260057D162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EC1B12242799ED260057D162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC1B12262799ED290057D162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1B12292799ED290057D162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC1B122B2799ED290057D162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC1B12302799ED2A0057D162 /* Tipsy_tellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipsy_tellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +57,12 @@
 		EC1B123A2799ED2A0057D162 /* Tipsy_tellerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tipsy_tellerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1B123E2799ED2A0057D162 /* Tipsy_tellerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipsy_tellerUITests.swift; sourceTree = "<group>"; };
 		EC1B12402799ED2A0057D162 /* Tipsy_tellerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipsy_tellerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1B124F2799EE4D0057D162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Fall 2021/CSCI 480/Drink_tracker2/Drink_tracker2/Assets.xcassets"; sourceTree = "<group>"; };
+		EC1B12592799EF060057D162 /* DrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		EC1B125A2799EF060057D162 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1B125B2799EF060057D162 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC1B125C2799EF060057D162 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1B12612799F10D0057D162 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43D00B39DD844AD264AA641 /* Pods_Tipsy_teller.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0241787B50B430F765FCEF2C /* Pods_Tipsy_tellerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F77A99462282B69C39F7F77B /* Pods_Tipsy_teller_Tipsy_tellerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59240DD2ACF889D97D867472 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20206E0E0A18B3553741A122 /* Pods-Tipsy_teller.debug.xcconfig */,
+				63980AF201E2C548CBA7D9B9 /* Pods-Tipsy_teller.release.xcconfig */,
+				0F6359CC7509AFF6B1E129CA /* Pods-Tipsy_teller-Tipsy_tellerUITests.debug.xcconfig */,
+				47354768C427A44655D86353 /* Pods-Tipsy_teller-Tipsy_tellerUITests.release.xcconfig */,
+				70696E6EDAE8C626861ACFB5 /* Pods-Tipsy_tellerTests.debug.xcconfig */,
+				00DFC21942F2EAC8965A97D7 /* Pods-Tipsy_tellerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9F4C9FB50DAA5B33D4FED46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF020ACC02312CF1D35F50A0 /* Pods_Tipsy_teller.framework */,
+				2F2E028DA7AD014505B396B8 /* Pods_Tipsy_teller_Tipsy_tellerUITests.framework */,
+				71355248267D28619C6FC720 /* Pods_Tipsy_tellerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC1B12112799ED260057D162 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				EC1B12332799ED2A0057D162 /* Tipsy_tellerTests */,
 				EC1B123D2799ED2A0057D162 /* Tipsy_tellerUITests */,
 				EC1B121B2799ED260057D162 /* Products */,
+				59240DD2ACF889D97D867472 /* Pods */,
+				E9F4C9FB50DAA5B33D4FED46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +141,13 @@
 		EC1B121C2799ED260057D162 /* Tipsy_teller */ = {
 			isa = PBXGroup;
 			children = (
-				EC1B121D2799ED260057D162 /* AppDelegate.swift */,
-				EC1B121F2799ED260057D162 /* SceneDelegate.swift */,
-				EC1B12212799ED260057D162 /* ViewController.swift */,
-				EC1B12232799ED260057D162 /* Main.storyboard */,
-				EC1B12262799ED290057D162 /* Assets.xcassets */,
+				EC1B125C2799EF060057D162 /* AppDelegate.swift */,
+				EC1B12592799EF060057D162 /* DrinkViewController.swift */,
+				EC1B125B2799EF060057D162 /* SceneDelegate.swift */,
+				EC1B125A2799EF060057D162 /* ViewController.swift */,
+				EC1B124F2799EE4D0057D162 /* Assets.xcassets */,
 				EC1B12282799ED290057D162 /* LaunchScreen.storyboard */,
+				EC1B12612799F10D0057D162 /* Main.storyboard */,
 				EC1B122B2799ED290057D162 /* Info.plist */,
 			);
 			path = Tipsy_teller;
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1B12442799ED2A0057D162 /* Build configuration list for PBXNativeTarget "Tipsy_teller" */;
 			buildPhases = (
+				B027B21AB99077B2860DB7EA /* [CP] Check Pods Manifest.lock */,
 				EC1B12162799ED260057D162 /* Sources */,
 				EC1B12172799ED260057D162 /* Frameworks */,
 				EC1B12182799ED260057D162 /* Resources */,
+				578252E60C833A07EB7CBAF5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1B12472799ED2A0057D162 /* Build configuration list for PBXNativeTarget "Tipsy_tellerTests" */;
 			buildPhases = (
+				79CB8EA2145BD7F3F3F97234 /* [CP] Check Pods Manifest.lock */,
 				EC1B122C2799ED2A0057D162 /* Sources */,
 				EC1B122D2799ED2A0057D162 /* Frameworks */,
 				EC1B122E2799ED2A0057D162 /* Resources */,
+				E8507EF5237199619B96D7F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC1B124A2799ED2A0057D162 /* Build configuration list for PBXNativeTarget "Tipsy_tellerUITests" */;
 			buildPhases = (
+				3C641F2D22BA166A04513DDB /* [CP] Check Pods Manifest.lock */,
 				EC1B12362799ED2A0057D162 /* Sources */,
 				EC1B12372799ED2A0057D162 /* Frameworks */,
 				EC1B12382799ED2A0057D162 /* Resources */,
+				D1AD359D8D584CB3763D3971 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +244,7 @@
 				TargetAttributes = {
 					EC1B12192799ED260057D162 = {
 						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
 					};
 					EC1B122F2799ED2A0057D162 = {
 						CreatedOnToolsVersion = 13.0;
@@ -231,9 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1B12622799F10D0057D162 /* Main.storyboard in Resources */,
 				EC1B122A2799ED290057D162 /* LaunchScreen.storyboard in Resources */,
-				EC1B12272799ED290057D162 /* Assets.xcassets in Resources */,
-				EC1B12252799ED260057D162 /* Main.storyboard in Resources */,
+				EC1B12542799EE4D0057D162 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +303,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C641F2D22BA166A04513DDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipsy_teller-Tipsy_tellerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578252E60C833A07EB7CBAF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller/Pods-Tipsy_teller-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller/Pods-Tipsy_teller-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller/Pods-Tipsy_teller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79CB8EA2145BD7F3F3F97234 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipsy_tellerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B027B21AB99077B2860DB7EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tipsy_teller-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1AD359D8D584CB3763D3971 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller-Tipsy_tellerUITests/Pods-Tipsy_teller-Tipsy_tellerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller-Tipsy_tellerUITests/Pods-Tipsy_teller-Tipsy_tellerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipsy_teller-Tipsy_tellerUITests/Pods-Tipsy_teller-Tipsy_tellerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8507EF5237199619B96D7F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_tellerTests/Pods-Tipsy_tellerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tipsy_tellerTests/Pods-Tipsy_tellerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tipsy_tellerTests/Pods-Tipsy_tellerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC1B12162799ED260057D162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1B12222799ED260057D162 /* ViewController.swift in Sources */,
-				EC1B121E2799ED260057D162 /* AppDelegate.swift in Sources */,
-				EC1B12202799ED260057D162 /* SceneDelegate.swift in Sources */,
+				EC1B12602799EF060057D162 /* AppDelegate.swift in Sources */,
+				EC1B125E2799EF060057D162 /* ViewController.swift in Sources */,
+				EC1B125D2799EF060057D162 /* DrinkViewController.swift in Sources */,
+				EC1B125F2799EF060057D162 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +468,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC1B12232799ED260057D162 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC1B12242799ED260057D162 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC1B12282799ED290057D162 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,9 +597,11 @@
 		};
 		EC1B12452799ED2A0057D162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20206E0E0A18B3553741A122 /* Pods-Tipsy_teller.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UFL58TXUUH;
@@ -455,6 +620,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Stephanie-Wiener.Tipsy-teller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,9 +628,11 @@
 		};
 		EC1B12462799ED2A0057D162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63980AF201E2C548CBA7D9B9 /* Pods-Tipsy_teller.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UFL58TXUUH;
@@ -490,6 +658,7 @@
 		};
 		EC1B12482799ED2A0057D162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70696E6EDAE8C626861ACFB5 /* Pods-Tipsy_tellerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +684,7 @@
 		};
 		EC1B12492799ED2A0057D162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DFC21942F2EAC8965A97D7 /* Pods-Tipsy_tellerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +710,7 @@
 		};
 		EC1B124B2799ED2A0057D162 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6359CC7509AFF6B1E129CA /* Pods-Tipsy_teller-Tipsy_tellerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +734,7 @@
 		};
 		EC1B124C2799ED2A0057D162 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47354768C427A44655D86353 /* Pods-Tipsy_teller-Tipsy_tellerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
